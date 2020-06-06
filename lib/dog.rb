@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #require 'pry'
 
+=======
+>>>>>>> 41e3f8d463906158ea208fd371303dd95e822310
 class Dog 
   
   attr_accessor :name
@@ -20,8 +23,13 @@ class Dog
   end
   
   def self.print_all
+<<<<<<< HEAD
     @@all.each do |dog|
       puts dog.name
+=======
+    @@all.each do |name|
+      puts name
+>>>>>>> 41e3f8d463906158ea208fd371303dd95e822310
     end
   end
   
@@ -29,6 +37,9 @@ class Dog
     @@all << self
   end
   
+<<<<<<< HEAD
  # binding.pry
   
+=======
+>>>>>>> 41e3f8d463906158ea208fd371303dd95e822310
 end
